@@ -1,0 +1,11 @@
+
+
+ Question 1
+ Final class Hamming stops the hierarchy and allows no more subclasses
+ Sealed class Levenshtein continues hierarchy but controls who can extend it
+ Non-sealed class Smithwaterman reopens inheritance for any class to extend
+ 
+ Question 2
+ StoredSequenceContext - Is trying to dynamically change behaviour when state changes
+ 
+ 

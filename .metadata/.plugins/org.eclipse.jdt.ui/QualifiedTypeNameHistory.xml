@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ie.atu.sw.Runner"/>
+    <fullyQualifiedTypeName name="ie.atu.sw.builder.CharacterDirector"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="ie.atu.sw.SequenceListStore"/>
+    <fullyQualifiedTypeName name="ie.atu.sw.InhStoredSequenceListAdapter"/>
+    <fullyQualifiedTypeName name="java.lang.CharSequence"/>
+    <fullyQualifiedTypeName name="ie.atu.sw.StoredSequenceContext"/>
+</qualifiedTypeNameHistroy>

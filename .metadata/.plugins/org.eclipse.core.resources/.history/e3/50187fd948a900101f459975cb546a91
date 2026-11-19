@@ -1,0 +1,3 @@
+module atu.character.metrics {
+	exports ie.atu.sw.hamming;
+}

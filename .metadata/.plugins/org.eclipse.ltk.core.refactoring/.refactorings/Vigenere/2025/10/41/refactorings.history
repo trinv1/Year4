@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ie.atu.classic.vigenere&apos; to &apos;ie.atu.sw.classic.vigenere&apos;&#x0A;- Original project: &apos;Vigenere&apos;&#x0A;- Original element: &apos;Vigenere/src/ie.atu.classic.vigenere&apos;&#x0A;- Renamed element: &apos;Vigenere/src/ie.atu.sw.classic.vigenere&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ie.atu.classic.vigenere&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ie.atu.classic.vigenere" name="ie.atu.sw.classic.vigenere" qualified="false" references="true" stamp="1759918313635" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,25 @@
+package asd.practise;
+
+public class TemperatureConverter {
+	
+	public double lastResult;
+	
+	public double toCelsius(double fahrenheit) {
+		double celsius = (fahrenheit - 32) / 1.8;	
+		lastResult = celsius;
+		return lastResult;
+	}
+
+	public double toFahrenheit(double celsius) {
+		double fahrenheit = (celsius * 1.8) + 32;
+		lastResult = fahrenheit;
+		return lastResult;
+	}
+
+	public double toKelvin(double celsius) {
+		double kelvin = (celsius + 273.15);
+		lastResult = kelvin;
+		return lastResult;
+	}
+
+}

@@ -1,0 +1,5 @@
+module atu.character.metrics {
+	exports ie.atu.sw.hamming;
+	
+	requires atu.character.service;
+}

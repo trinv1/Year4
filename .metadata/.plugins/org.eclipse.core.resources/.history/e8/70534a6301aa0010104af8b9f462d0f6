@@ -1,0 +1,7 @@
+package asd.practise;
+
+public class ConverterRunner {
+	public static void main(String[] args) {
+		toCelsius();
+	}
+}

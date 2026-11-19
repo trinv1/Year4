@@ -1,0 +1,31 @@
+
+
+Question 1
+	Final class Hamming stops the hierarchy and allows no more subclasses
+	Sealed class Levenshtein continues hierarchy but controls who can extend it
+	Non-sealed class Smithwaterman reopens inheritance for any class to extend
+ 
+Question 2 
+	The State Pattern is used to let StoredSequenceContext 
+	dynamically change its comparison behaviour when internal state changes by switching between
+	concrete SequenceComparator states (Hamming, Levenshtein, SmithWaterman), 
+	improving flexibility and reducing conditional logic.
+
+Question 3
+	The drawbacks of this approach would be:
+	There is tight coupling to StoredSequenceContext so any change made inside this class breaks the adapter and anything that
+	depends on it.
+	The adapter inherits protected and public members of StoredSequenceContext and this weakens encapsulation.
+
+	The client now depends on SequenceListStore interface and StoredSequenceContext class.
+	So the client is indirectly coupled to an implementation detail.
+
+Question 4
+	The object adapter, ComStoredSequenceListAdapter, uses composition instead of inheritance.
+	It’s more flexible because you can change or replace StoredSequenceContext without breaking the Client.
+	The Client now depends only on the SequenceListStore interface, not on the concrete StoredSequenceContext, 
+	so coupling is reduced and encapsulation is stronger.
+	
+	
+
+

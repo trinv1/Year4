@@ -1,0 +1,3 @@
+module atu.character.service{
+	export ie.atu.character;
+}

@@ -1,0 +1,9 @@
+package ie.atu.sw.builder;
+
+import java.util.ServiceLoader;
+import ie.atu.character.*;
+import ie.atu.sw.hamming.*;
+
+public class CharacterDirector {
+
+}

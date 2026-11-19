@@ -1,0 +1,18 @@
+package asd.practise;
+
+public class ConverterRunner {
+	
+	public static void main(String[] args) {
+		TemperatureConverter temperatureConverter = new TemperatureConverter();
+		temperatureConverter.toCelsius(100);
+		
+		temperatureConverter.toFahrenheit(20);
+		
+		temperatureConverter.toKelvin(20);
+		
+		System.out.println(temperatureConverter.lastResult);
+		
+	}
+}
+
+

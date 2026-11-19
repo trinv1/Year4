@@ -1,0 +1,14 @@
+
+
+ Question 1
+ Final class Hamming stops the hierarchy and allows no more subclasses
+ Sealed class Levenshtein continues hierarchy but controls who can extend it
+ Non-sealed class Smithwaterman reopens inheritance for any class to extend
+ 
+ Question 2 
+The State Pattern is used to let StoredSequenceContext 
+dynamically change its comparison behaviour when internal state changes by switching between
+concrete SequenceComparator states (Hamming, Levenshtein, SmithWaterman), 
+improving flexibility and reducing conditional logic.
+
+

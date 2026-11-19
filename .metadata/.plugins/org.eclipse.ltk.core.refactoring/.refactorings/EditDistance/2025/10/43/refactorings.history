@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;EditDistance/src/ie/atu/sw/Untitled 1&apos; to &apos;Explanations&apos;" description="Rename resource &apos;Untitled 1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ie/atu/sw/Untitled 1" name="Explanations" stamp="1760966980670" updateReferences="true"/>
+</session>
